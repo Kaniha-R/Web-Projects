@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="try.css">
+        <title>Calculator</title>
+        <link rel="icon" href="logo.png" type="png">
+    </head>
+
+    <body style="font-family: Poppins, sans-serif, Arial">
+        <center>
+        <section>
+        <h1 style="font-weight: bold;">Addition Calculator</h1>
+        <label for="num1" style="font-weight: bold";>Num1: </label>
+        <input id="num1"><br>
+        <br>
+
+        <label for="num2" style="font-weight: bold";>Num2: </label>
+        <input id="num2"><br>
+        <br>
+
+        <label for="op" style="font-weight: bold";>Operator: </label>
+        <input id="op"><br>
+        <br>
+
+        <button onclick="add()" style="font-weight: bold";>Submit</button>
+
+        <p id="result" style="font-weight: bold";>Result: </p>
+        </section>
+
+        <script>
+                //selecting input box 1
+        var n1 = document.getElementById("num1")
+
+        //selecting input box 2
+        var n2 = document.getElementById("num2")
+
+        //selecting input box 3
+        var opt = document.getElementById("op")
+            
+        //selecting result
+        var result = document.getElementById("result").innerText = "Result: " 
+        
+        function add()
+        {
+            var n1value = Number(n1.value)
+            var n2value = Number(n2.value)
+            var optvalue = opt.value
+            
+
+            if ( optvalue == "+")
+            {
+                var total = n1value + n2value
+            }
+            
+            else if (optvalue == "-")
+            {
+                var total = n1value - n2value
+            }
+
+            else if (optvalue == "*")
+            {
+                var total = n1value * n2value
+            }
+
+            else if (optvalue == "/")
+            {
+                var total = n1value / n2value
+            }
+
+            else if (optvalue == "**")
+            {
+                var total = n1value ** n2value
+            }
+
+            else
+            {
+                console.log("Invalid Operator")
+            }
+
+            result.textContent = total
+
+        }
+        </script>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+h1{
+    align-self: auto;
+    background-color: blueviolet;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: auto;
+}
+
+body{
+    color: blueviolet;
+    background-color:rgb(231, 227, 227);
+    font-weight: 100;
+    padding: 100px;
+    border-radius: 5px;
+}
+
+input{
+    background-color: rgb(209, 205, 205);
+}
+
+section{
+    padding: 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500;
+}
+
+button{
+    color: white;
+    border-radius: 5px;
+    background-color: blueviolet;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
