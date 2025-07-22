@@ -1,0 +1,68 @@
+body{
+    padding-top: 70px;
+    background-color: rgb(30, 175, 151);
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    margin: auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px auto;
+    font-weight: 100;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1.0)
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    background-color: rgba(121, 120, 120, 0.301);
+    border-radius: 4px;
+    border: none;
+}
+
+input::placeholder{
+    color: black;
+    padding: 10px;
+}
+
+select{
+    width: 250px;
+    height: 30px;
+    font-weight: 100;
+    background-color: rgba(121, 120, 120, 0.301);
+    border-radius: 4px;
+    border: none;
+}
+
+textarea{
+    width: 250px;
+    height: 30px;
+    font-weight: 100px;
+    background-color: rgba(121, 120, 120, 0.301);
+    border-radius: 4px;
+    border: none;
+    
+}
+
+textarea::placeholder{
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    font-weight: 200;
+    background-color: rgb(2, 62, 70);
+    color: white;
+    border-radius: 5px; 
+}
+
+button:hover{
+    background-color: rgb(119, 209, 245);
+    color: black;
+}
